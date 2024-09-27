@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV de Tamara Noemí Pereira Montiel</title>
+    <style>
+        :root {
+            --background-color: #f4f4f4;
+            --primary-color: #800000;
+            --secondary-color: #555;
+            --light-background: #f9f9f9;
+            --hover-background: #f0e0e0;
+            --font-body: 'Arial', sans-serif;
+            --font-header: 'Georgia', serif;
+            --box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            background-color: var(--background-color);
+            color: var(--secondary-color);
+            font-family: var(--font-body);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: var(--font-header);
+            color: var(--primary-color);
+            margin-bottom: 20px;
+        }
+
+        h2, h3 {
+            font-family: var(--font-header);
+            color: var(--primary-color);
+            margin: 30px 0 10px;
+        }
+
+        p, ul {
+            color: var(--secondary-color);
+            margin: 0 0 10px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 800px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: var(--box-shadow);
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        .image-container img {
+            border-radius: 50%;
+            border: 2px solid var(--primary-color);
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .contact-info {
+            text-align: left;
+        }
+
+        hr {
+            width: 50%;
+            border: 1px solid var(--primary-color);
+            margin: 20px auto;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        footer {
+            margin-top: 20px;
+            color: var(--secondary-color);
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        a:hover {
+            background-color: var(--hover-background);
+            text-decoration: underline;
+        }
+
+        .experience-list, .education-list {
+            background-color: var(--light-background);
+            border-left: 5px solid var(--primary-color);
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 10px 0;
+        }
+
+        .skills-list li {
+            background-color: #e0e0e0;
+            margin: 5px;
+            padding: 10px;
+            border-radius: 5px;
+            flex: 1 1 150px;
+            text-align: center;
+        }
+        .contact-info p {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+        }
+        
+        .contact-info i {
+            margin-right: 8px; /* Espaciado entre el icono y el texto */
+            color: var(--primary-color); /* Usa el color primario de tu variable */
+        }
+    
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+</head>
+<body>
+    <h1>Tamara Noemí Pereira Montiel</h1>
+    <div class="container">
+        <div class="header">
+            <div class="image-container">
+                <img src="foto.jpg" alt="Foto de Tamara Noemí Pereira Montiel">
+            </div>
+            <div class="contact-info">
+                <h2>CONTACTO</h2>
+                <p><i class="fas fa-envelope"></i> <strong>Email:</strong> tamarrnoemi@gmail.com</p>
+                <p><i class="fas fa-phone-alt"></i> <strong>Teléfono:</strong> 0974 340 509</p>
+                <p><i class="fas fa-map-marker-alt"></i> <strong>Dirección:</strong> Avda. Carlos A. López esq/Ramón de las Llanas 1.603</p>
+            </div>
+            
+        </div>
+
+        <hr>
+
+        <h2>HABILIDADES</h2>
+        <ul class="skills-list">
+            <li>Liderazgo</li>
+            <li>Comunicación asertiva</li>
+            <li>Gestión de activos</li>
+            <li>Resolución de problemas</li>
+            <li>Elaboración de reportes</li>
+            <li>Trabajo en equipo</li>
+        </ul>
+
+        <hr>
+
+        <h2>EDUCACIÓN</h2>
+        <div class="education-list">
+            <ul>
+                <li><strong>Lic. Análisis de Sistemas</strong> - Universidad Iberoamericana (2019 - 2023)</li>
+                <li><strong>Bachiller Técnico en Informática</strong> - Escuela Nacional Comercio N°3 República del Perú (2015 - 2017)</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>EXPERIENCIA LABORAL</h2>
+        <div class="experience-list">
+            <h3>AFEMEC</h3>
+            <ul>
+                <li><strong>Auxiliar Contable</strong> (2021 - 2024)</li>
+                <li><strong>Auxiliar Mini Préstamos</strong> (2019 - 2020)</li>
+                <li><strong>Recepcionista Mesa de Entrada</strong> (2018)</li>
+                <li><strong>Pasante en Mesa de Entrada</strong> (2016 - 2017)</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>REFERENCIAS</h2>
+        <p><strong>Raúl Velazco</strong><br>
+        Departamento de Contabilidad<br>
+        <strong>Teléfono:</strong> 0981 679 883</p>
+
+        <footer>
+            <p>Visita mi perfil en GitHub: 
+                <a href="https://github.com/Tamara24-P" target="_blank">Tamara Pereira</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
